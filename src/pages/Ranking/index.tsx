@@ -5,6 +5,8 @@ const Body = styled.div`
   background-color: #fef9ef;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
 `;
 
 export default function Ranking() {
