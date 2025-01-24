@@ -1,0 +1,15 @@
+export default function BrownMedal() {
+  return (
+    <>
+      <svg
+        width="48"
+        height="49"
+        viewBox="0 0 48 49"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0 48.36H48V0.36H0V48.36Z" fill="#221E22" />
+      </svg>
+    </>
+  );
+}
