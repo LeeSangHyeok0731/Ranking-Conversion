@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import RankingDiv from "./components/ranking-divs";
 
 const Body = styled.div`
   background-color: #fef9ef;
@@ -7,5 +8,9 @@ const Body = styled.div`
 `;
 
 export default function Ranking() {
-  return <Body></Body>;
+  return (
+    <Body>
+      <RankingDiv />
+    </Body>
+  );
 }
