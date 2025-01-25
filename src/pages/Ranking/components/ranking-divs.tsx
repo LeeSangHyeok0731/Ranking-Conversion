@@ -9,6 +9,8 @@ const Body = styled.div`
   border-radius: 16px;
   display: flex;
   align-items: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
 `;
 
 const RankingColor = styled.div`
