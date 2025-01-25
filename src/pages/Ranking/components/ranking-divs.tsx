@@ -8,7 +8,6 @@ const Body = styled.div`
   border-radius: 16px;
   display: flex;
   align-items: center;
-  justify-content: center;
 `;
 
 const RankingColor = styled.div`
