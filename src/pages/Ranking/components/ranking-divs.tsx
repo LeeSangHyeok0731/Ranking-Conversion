@@ -13,10 +13,17 @@ const Body = styled.div`
   margin-bottom: 12px;
 `;
 
-const RankingColor = styled.div`
+const RankingColor = styled.div<{ rank: number }>`
   width: 135px;
   height: 102px;
-  background-color: #f9d85e;
+  background-color: ${({ rank }) =>
+    rank === 1
+      ? "#f9d85e"
+      : rank === 2
+      ? "#c0c0c0"
+      : rank === 3
+      ? "#cd7f32"
+      : "#f3f3f3"};
   clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
   border-radius: 16px 0 0 16px;
 `;
@@ -51,7 +58,7 @@ export default function RankingDiv({ name, rank, click }: User) {
 
   return (
     <Body>
-      <RankingColor />
+      <RankingColor rank={Rank} />
       <InfoBox>
         <FirstInfo>
           <h1 style={{ zIndex: 0 }}>{`#${Rank}  `}</h1>
