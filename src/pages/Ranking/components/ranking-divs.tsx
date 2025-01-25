@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styled from "styled-components";
+import { User } from "..";
 
 const Body = styled.div`
   width: 1639px;
@@ -34,22 +35,28 @@ const SecondInfo = styled.div`
   align-items: center;
 `;
 
-export default function RankingDiv() {
-  const [name, setName] = useState<string>("이세민");
-  const [rank, setRank] = useState<number>(0);
+export default function RankingDiv({ name, rank, click }: User) {
+  const [Name, setName] = useState<string>("이세민");
+  const [Rank, setRank] = useState<number>(0);
 
-  const [click, setClick] = useState<number>(0);
+  const [Click, setClick] = useState<number>(1000000);
+
+  useEffect(() => {
+    setName(name);
+    setRank(rank);
+    setClick(click);
+  }, []);
 
   return (
     <Body>
       <RankingColor />
       <InfoBox>
         <FirstInfo>
-          <h1 style={{ zIndex: 0 }}>{`#${rank}  `}</h1>
-          <h1 style={{ zIndex: 0 }}>{name}</h1>
+          <h1 style={{ zIndex: 0 }}>{`#${Rank}  `}</h1>
+          <h1 style={{ zIndex: 0 }}>{Name}</h1>
         </FirstInfo>
         <SecondInfo>
-          <h1 style={{ zIndex: 0 }}>{click}</h1>
+          <h1 style={{ zIndex: 0 }}>{Click}</h1>
           <h1 style={{ zIndex: 0 }}>클릭</h1>
         </SecondInfo>
       </InfoBox>
