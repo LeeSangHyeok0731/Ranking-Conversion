@@ -54,7 +54,7 @@ export default function RankingDiv({ name, rank, click }: User) {
     setName(name);
     setRank(rank);
     setClick(click);
-  }, []);
+  }, [name, rank, click]);
 
   return (
     <Body>
