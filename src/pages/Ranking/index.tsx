@@ -48,7 +48,14 @@ export default function Ranking() {
   return (
     <Body>
       {UserInfo.map((x) => {
-        return <RankingDiv name={x.name} rank={x.rank} click={x.click} />;
+        return (
+          <RankingDiv
+            key={x.name}
+            name={x.name}
+            rank={x.rank}
+            click={x.click}
+          />
+        );
       })}
     </Body>
   );
