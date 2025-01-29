@@ -26,6 +26,7 @@ const RankingColor = styled.div<{ rank: number }>`
       : "#f3f3f3"};
   clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
   border-radius: 16px 0 0 16px;
+  position: absolute;
 `;
 
 const InfoBox = styled.div`
@@ -59,6 +60,7 @@ export default function RankingDiv({ name, rank, click }: User) {
   return (
     <Body>
       <RankingColor rank={Rank} />
+      <div style={{ marginRight: 80 }} />
       <InfoBox>
         <FirstInfo>
           <h1 style={{ zIndex: 0 }}>{`#${Rank}  ${Name}`}</h1>
