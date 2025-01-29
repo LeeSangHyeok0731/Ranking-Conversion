@@ -61,8 +61,7 @@ export default function RankingDiv({ name, rank, click }: User) {
       <RankingColor rank={Rank} />
       <InfoBox>
         <FirstInfo>
-          <h1 style={{ zIndex: 0 }}>{`#${Rank}  `}</h1>
-          <h1 style={{ zIndex: 0 }}>{Name}</h1>
+          <h1 style={{ zIndex: 0 }}>{`#${Rank}  ${Name}`}</h1>
         </FirstInfo>
         <SecondInfo>
           <h1 style={{ zIndex: 0 }}>{Click}</h1>
