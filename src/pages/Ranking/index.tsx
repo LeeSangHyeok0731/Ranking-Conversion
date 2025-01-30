@@ -10,10 +10,11 @@ export type User = {
 const Body = styled.div`
   background-color: #fef9ef;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
+  transition
 `;
 
 export default function Ranking() {
@@ -37,6 +38,216 @@ export default function Ranking() {
       name: "정유진",
       rank: 4,
       click: 9997,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
+    },
+    {
+      name: "최영수",
+      rank: 5,
+      click: 9996,
     },
     {
       name: "최영수",
