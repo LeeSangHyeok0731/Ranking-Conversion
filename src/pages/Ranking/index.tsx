@@ -5,6 +5,7 @@ export type User = {
   name: string;
   rank: number;
   click: number;
+  me?: boolean;
 };
 
 const Body = styled.div`
@@ -35,9 +36,10 @@ export default function Ranking() {
       click: 9998,
     },
     {
-      name: "정유진",
+      name: "이상혁",
       rank: 4,
       click: 9997,
+      me: true,
     },
     {
       name: "최영수",
@@ -258,12 +260,12 @@ export default function Ranking() {
 
   return (
     <Body>
-      {UserInfo.map((x) => {
+      {UserInfo.map((x, index) => {
         return (
           <RankingDiv
             key={x.name}
             name={x.name}
-            rank={x.rank}
+            rank={index + 1}
             click={x.click}
           />
         );
