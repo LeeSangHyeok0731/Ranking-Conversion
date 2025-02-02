@@ -260,12 +260,12 @@ export default function Ranking() {
 
   return (
     <Body>
-      {UserInfo.map((x, index) => {
+      {UserInfo.map((x) => {
         return (
           <RankingDiv
             key={x.name}
             name={x.name}
-            rank={index + 1}
+            rank={x.rank}
             click={x.click}
           />
         );
